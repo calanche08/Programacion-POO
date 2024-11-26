@@ -1,27 +1,28 @@
-
 package com.calanche.curso;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.calanche.curso.databinding.ActivityMainBinding;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    private ActivityMainBinding binding;
+
+    private LinearLayout panatalla; // Pantalla donde vamos a mostrar el contenido
+
+    private TextView texto; // Propiedad para mostrar un texto
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Inflate and get instance of binding
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        panatalla = new LinearLayout(this); // Imstanciando clase
 
-        // set content view to binding's root
-        setContentView(binding.getRoot());
-    }
-    
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        this.binding = null;
+        texto = new TextView(this); // Imstanciando clase
+
+        texto.setText("Hola Mundo"); // Qñqdiendo un texto para mostrar
+
+        // Añadiendo el.contecto a la aplicación
+        setContentView(panatalla);
     }
 }
