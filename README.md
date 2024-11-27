@@ -1,2 +1,2 @@
 # Programacion-POO
-Curso de programación
+Curso de Programación
