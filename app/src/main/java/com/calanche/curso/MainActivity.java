@@ -22,94 +22,143 @@ public class MainActivity extends AppCompatActivity {
 
         texto.setText("Hola Mundo"); // Qñqdiendo un texto para mostrar
 
+        // aqui se coloca las instancias
         
-        // instanciando clase Planta
+        Computadoras telefono = new Computadoras();
         
-        Planta girasol = new Planta();
+        //atributos de telefono
+        telefono.memoria = 2;
         
-        girasol.edad = 10;
+        telefono.procesador = 8;
         
-        girasol.nombre="pepe";
+        telefono.pantalla = 1;
         
-        girasol.sexo='M';
+        telefono.nombre = "redmi";
         
-        girasol.tamano=50;
+        //metodos
         
-        girasol.crece();
+        telefono.almacena();
         
-        girasol.duerme();
+        telefono.entretiene();
         
-        girasol.respira();
+        telefono.reproduce();
         
-        Planta cafe = new Planta();
+        //instanciando clase avion
+        Avion helicoptero = new Avion();
         
-        cafe.edad = 50;
+        //atributos
         
-        cafe.nombre="ruffy";
+        helicoptero.aspas = 2;
         
-        cafe.sexo ='M';
+        helicoptero.luces = 5;
         
-        cafe.tamano =200;
-        
-        
-        cafe.crece();
-        
-        cafe.duerme();
-        
-        cafe.respira();
+        helicoptero.alas = 2;
         
         
-        Planta arroz = new Planta();
+        // metodos
         
-        arroz.edad = 300;
+        helicoptero.vuela();
         
-        arroz.nombre="anna";
+        helicoptero.transporta();
         
-        arroz.sexo ='F';
+        //intanciando clase casa
         
-        arroz.tamano =15;
+        Casa mansion = new Casa();
         
+        //atributos de mansion
         
-        arroz.crece();
+        mansion.ventana = 30;
         
-        arroz.duerme();
+        mansion.puerta = 20;
         
-        arroz.respira();
+        mansion.pared = 50;
         
+        // metodos de mansion
+        
+        mansion.almacena();
+        
+        mansion.protege();
+        
+        mansion.retiene();
         
         // Añadiendo el.contecto a la aplicación
         setContentView(panatalla);
     }
     
-    class Planta {   // nueva clase Planta
+    
+    // aqui genero mis nuevas clases
+    
+    class Computadoras {
         
-        //atributos de clase planta
+        // atributos de la clase
+        int procesador = 1;
+        int memoria = 2;
+        int pantalla = 1;
+        String nombre = "xiami";
         
-        int edad =12;
-        int tamano = 20;
-        String nombre ="maiz";
-        char sexo ='F';
+        //metodos de la clase
         
-        
-        //metodos de la clase planta
-        
-        void respira()
+        void reproduce()
         {}
         
-        void crece()
+        void almacena()
         {}
         
-        void duerme()
+        void entretiene ()
+        {}
+        
+        
+    }
+    
+    class Avion {
+        
+        //atributos
+        
+        int alas = 2;
+        int aspas = 3;
+        int luces = 4;
+        String nombre = "transporte";
+        
+        
+        //metodos
+        
+        void vuela()
+        {}
+        
+        void transporta ()
+        {}
+        
+        void rueda ()
         {}
         
         
     }
     
     
-    
-    
-    
-    
+    class Casa {
+        
+      //  atributos
+        
+        int pared = 1;
+        int techo = 2;
+        int ventana = 4;
+        int puerta = 2;
+        
+        //propiedades
+        
+        void protege ()
+        {}
+        
+        void almacena ()
+        
+        {}
+        
+        void retiene ()
+        
+        {}
+        
+        
+    }
     
     
 }
