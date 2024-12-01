@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.calanche.curso.dispositivos.Dispositivos;
+import com.calanche.curso.objetos.Objetos;
+import com.calanche.curso.personas.Personas;
 import com.calanche.curso.vehiculos.vehiculos;
 
 public class MainActivity extends AppCompatActivity {
@@ -106,6 +108,90 @@ public class MainActivity extends AppCompatActivity {
         
         moto.desplaza();
         
+        Personas carlos = new Personas();
+        
+        carlos.brazos = 2;
+        
+        carlos.piernas = 2;
+        
+        carlos.cabello = "corto";
+        
+        carlos.color_cabello = "negro";
+        
+        carlos.color_ojos = "negros";
+        
+        carlos.dedos = 20;
+        
+        carlos.bebe();
+        
+        carlos.camina();
+        
+        carlos.come();
+        
+        carlos.corre();
+        
+        carlos.duerme();
+        
+        carlos.respira();
+        
+        Personas yissel = new Personas();
+        
+        yissel.brazos = 2;
+        
+        yissel.piernas = 2;
+        
+        yissel.cabello = "largo";
+        
+        yissel.color_cabello = "negro";
+        
+        yissel.color_ojos = "cafe";
+        
+        yissel.dedos = 20;
+        
+        yissel.bebe();
+        
+        yissel.camina();
+        
+        yissel.come();
+        
+        yissel.corre();
+        
+        yissel.respira();
+        
+        
+        Objetos mesa = new Objetos();
+        
+        mesa.clavos = 8;
+        
+        mesa.patas = 4;
+        
+        mesa.superficie = 1;
+        
+        mesa.tornillos = 8;
+        
+        mesa.optimiza();
+        
+        mesa.sostiene();
+        
+        mesa.almacena();
+        
+        Objetos vitrina = new Objetos();
+        
+        vitrina.clavos = 30;
+        
+        vitrina.tornillos = 20;
+        
+        vitrina.ruedas = 4;
+        
+        vitrina.superficie = 3;
+        
+        vitrina.excibe();
+        
+        vitrina.almacena();
+        
+        vitrina.optimiza();
+        
+        vitrina.sostiene();
         
         
         // Añadiendo el.contecto a la aplicación
