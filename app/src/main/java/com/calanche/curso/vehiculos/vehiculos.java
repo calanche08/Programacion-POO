@@ -2,30 +2,30 @@ package com.calanche.curso.vehiculos;
 
 public class vehiculos {
     
-    int asientos = 1;
+   public int asientos = 1;
     
-    int ruedas = 2;
+   public int ruedas = 2;
     
-    int luces = 1;
+   public int luces = 1;
     
-    int cava = 2;
+   public int cava = 2;
     
-    int retrovisor = 1;
-    
-    void traslada ()
+   public int retrovisor = 1;
     
     
-    {}
-    
-    void desplaza ()
+   public void traslada ()
     
     {}
     
-    void agiliza ()
+   public void desplaza ()
     
     {}
     
-    void economiza ()
+   public void agiliza ()
+    
+    {}
+    
+   public void economiza ()
     
     {}
     

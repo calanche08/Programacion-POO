@@ -5,58 +5,13 @@
       "selection": {
         "end": {
           "column": 8,
-          "index": 750,
-          "line": 26
+          "index": 2477,
+          "line": 107
         },
         "start": {
           "column": 8,
-          "index": 750,
-          "line": 26
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/dispositivos/Dispositivos.java",
-      "selection": {
-        "end": {
-          "column": 25,
-          "index": 297,
-          "line": 18
-        },
-        "start": {
-          "column": 25,
-          "index": 297,
-          "line": 18
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/objetos/Objetos.java",
-      "selection": {
-        "end": {
-          "column": 4,
-          "index": 391,
-          "line": 32
-        },
-        "start": {
-          "column": 4,
-          "index": 391,
-          "line": 32
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/personas/Personas.java",
-      "selection": {
-        "end": {
-          "column": 6,
-          "index": 492,
-          "line": 41
-        },
-        "start": {
-          "column": 6,
-          "index": 492,
-          "line": 41
+          "index": 2477,
+          "line": 107
         }
       }
     },
@@ -64,17 +19,62 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/vehiculos/vehiculos.java",
       "selection": {
         "end": {
-          "column": 4,
-          "index": 358,
-          "line": 31
+          "column": 0,
+          "index": 0,
+          "line": 0
         },
         "start": {
-          "column": 4,
-          "index": 358,
-          "line": 31
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/personas/Personas.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/objetos/Objetos.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/dispositivos/Dispositivos.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/vehiculos/vehiculos.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/MainActivity.java"
 }

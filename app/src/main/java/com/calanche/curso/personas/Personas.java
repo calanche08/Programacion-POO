@@ -2,42 +2,42 @@ package com.calanche.curso.personas;
 
 public class Personas {
     
-    int brazos = 2;
+   public int brazos = 2;
     
-    String cabello = "corto";
+   public String cabello = "corto";
     
-    String color_cabello = "marron";
+  public String color_cabello = "marron";
     
-    String color_ojos = "azul";
+   public String color_ojos = "azul";
     
-    int piernas = 2;
+    public int piernas = 2;
     
-    int dedos = 20;
+    public int dedos = 20;
     
-    int pecas = 8;
+    public int pecas = 8;
     
     
-    void come ()
-    
-    {}
-    
-    void duerme ()
+    public void come ()
     
     {}
     
-    void bebe ()
+    public void duerme ()
     
     {}
     
-    void camina ()
+   public void bebe ()
     
     {}
     
-    void respira ()
+   public void camina ()
     
     {}
     
-    void corre ()
+   public void respira ()
+    
+    {}
+    
+   public void corre ()
     
     {}
     

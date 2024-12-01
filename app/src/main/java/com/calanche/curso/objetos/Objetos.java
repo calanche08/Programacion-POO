@@ -2,32 +2,32 @@ package com.calanche.curso.objetos;
 
 public class Objetos {
     
-    int patas = 1;
+    public int patas = 1;
     
-    int tornillos = 3;
+   public int tornillos = 3;
     
-    int clavos = 4;
+    public int clavos = 4;
     
-    int superficie = 1;
+   public int superficie = 1;
     
-    int ruedas = 2;
+   public int ruedas = 2;
     
-    String identificacion ="meson";
+   public String identificacion ="meson";
     
     
-    void sostiene ()
-    
-    {}
-    
-    void excibe ()
+   public void sostiene ()
     
     {}
     
-    void almacena ()
+   public void excibe ()
     
     {}
     
-    void optimiza ()
+   public void almacena ()
+    
+    {}
+    
+    public void optimiza ()
     
     {}
     

@@ -2,41 +2,41 @@ package com.calanche.curso.dispositivos;
 
 public class Dispositivos {
     
-    int pantalla = 2;
+   public int pantalla = 2;
     
-    int corneta = 3;
+   public int corneta = 3;
     
-    String identificacion = "iphone";
+    public String identificacion = "iphone";
     
-    int teclas = 2;
+    public int teclas = 2;
     
-    int leds = 5;
+   public int leds = 5;
     
-    int auxiliar = 1;
+    public int auxiliar = 1;
     
-    int salidas = 2;
+   public int salidas = 2;
     
-    int procesadores = 4;
+    public int procesadores = 4;
     
     
     
-    void reproduce ()
-    
-    {}
-    
-    void suena ()
+   public void reproduce ()
     
     {}
     
-   void  interpreta ()
+    public void suena ()
     
     {}
     
-    void entretiene ()
+  public void  interpreta ()
     
     {}
     
-    void actualiza ()
+   public void entretiene ()
+    
+    {}
+    
+    public void actualiza ()
     
     {}
     
