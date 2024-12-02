@@ -4,44 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/MainActivity.java",
       "selection": {
         "end": {
-          "column": 27,
-          "index": 4171,
-          "line": 193
+          "column": 8,
+          "index": 1501,
+          "line": 55
         },
         "start": {
-          "column": 27,
-          "index": 4171,
-          "line": 193
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/vehiculos/vehiculos.java",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/personas/Personas.java",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 8,
+          "index": 1501,
+          "line": 55
         }
       }
     },
@@ -61,17 +31,17 @@
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/dispositivos/Dispositivos.java",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/.gitignore",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 12,
+          "index": 1441,
+          "line": 84
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 12,
+          "index": 1441,
+          "line": 84
         }
       }
     }

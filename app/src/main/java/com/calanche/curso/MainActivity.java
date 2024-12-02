@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         
         telefono.reproduce();
         
-        Dispositivos computadora = new computadora();
+        Dispositivos computadora = new Dispositivos();
         
         computadora.pantalla = 1;
         
