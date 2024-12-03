@@ -1,26 +1,28 @@
 package com.calanche.curso.dispositivos;
 
+
 public class Dispositivos {
     
-   public int pantalla = 2;
+  int pantalla = 2;
     
-   public int corneta = 3;
+   private int corneta = 3;
     
     public String identificacion = "iphone";
     
-    public int teclas = 2;
+    protected int teclas = 2;
     
-   public int leds = 5;
+   int leds = 5;
     
-    public int auxiliar = 1;
+    private int auxiliar = 1;
     
-   public int salidas = 2;
+   protected int salidas = 2;
     
     public int procesadores = 4;
     
     
     
-   public void reproduce ()
+    
+   private void reproduce ()
     
     {}
     
@@ -28,7 +30,7 @@ public class Dispositivos {
     
     {}
     
-  public void  interpreta ()
+  void  interpreta ()
     
     {}
     
@@ -36,8 +38,47 @@ public class Dispositivos {
     
     {}
     
-    public void actualiza ()
+    protected void actualiza ()
     
     {}
+    
+    void estereo ()
+    {
+        
+        Dispositivos radio = new Dispositivos();
+        
+        radio.corneta = 4;
+        radio.auxiliar = 2;
+        
+        radio.reproduce();
+        
+    }
+    
+}
+
+
+class Televisor {
+    
+    
+    
+  void smart (){
+        
+    Dispositivos smarttv = new Dispositivos();
+    
+        smarttv.identificacion = "entretenimiento"; // control publico
+        smarttv.pantalla = 1; // control de acceso por default
+        smarttv.leds = 2;     // control de acceso por default
+        smarttv.procesadores = 2; // control de acceso publico
+        smarttv.salidas= 4;      // control de acceso protegido
+        smarttv.teclas = 8;    // control de acceso protegido
+        
+        
+        smarttv.actualiza(); // control de acceso protegido
+        smarttv.entretiene(); // control de acceso publico
+        smarttv.interpreta();  // control de acceso default
+        smarttv.suena();  // control de acceso publico
+        
+        
+    }
     
 }

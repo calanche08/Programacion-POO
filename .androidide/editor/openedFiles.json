@@ -4,14 +4,44 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/MainActivity.java",
       "selection": {
         "end": {
-          "column": 8,
-          "index": 1501,
-          "line": 55
+          "column": 34,
+          "index": 1328,
+          "line": 39
         },
         "start": {
-          "column": 8,
-          "index": 1501,
-          "line": 55
+          "column": 34,
+          "index": 1328,
+          "line": 39
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/vehiculos/vehiculos.java",
+      "selection": {
+        "end": {
+          "column": 35,
+          "index": 35,
+          "line": 0
+        },
+        "start": {
+          "column": 35,
+          "index": 35,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/personas/Personas.java",
+      "selection": {
+        "end": {
+          "column": 4,
+          "index": 559,
+          "line": 40
+        },
+        "start": {
+          "column": 4,
+          "index": 559,
+          "line": 40
         }
       }
     },
@@ -19,32 +49,32 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/objetos/Objetos.java",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 13,
+          "index": 410,
+          "line": 29
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 13,
+          "index": 410,
+          "line": 29
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/.gitignore",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/dispositivos/Dispositivos.java",
       "selection": {
         "end": {
-          "column": 12,
-          "index": 1441,
-          "line": 84
+          "column": 33,
+          "index": 1135,
+          "line": 70
         },
         "start": {
-          "column": 12,
-          "index": 1441,
-          "line": 84
+          "column": 33,
+          "index": 1135,
+          "line": 70
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/MainActivity.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/dispositivos/Dispositivos.java"
 }

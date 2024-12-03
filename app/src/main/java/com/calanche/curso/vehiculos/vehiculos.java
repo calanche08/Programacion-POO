@@ -6,26 +6,26 @@ public class vehiculos {
     
    public int ruedas = 2;
     
-   public int luces = 1;
+   int luces = 1;
     
-   public int cava = 2;
+   protected int cava = 2;
     
-   public int retrovisor = 1;
+   private int retrovisor = 1;
     
     
    public void traslada ()
     
     {}
     
-   public void desplaza ()
+   void desplaza ()
     
     {}
     
-   public void agiliza ()
+   private void agiliza ()
     
     {}
     
-   public void economiza ()
+   protected void economiza ()
     
     {}
     

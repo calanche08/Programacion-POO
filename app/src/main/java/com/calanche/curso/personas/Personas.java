@@ -2,19 +2,19 @@ package com.calanche.curso.personas;
 
 public class Personas {
     
-   public int brazos = 2;
+   int brazos = 2;
     
    public String cabello = "corto";
     
   public String color_cabello = "marron";
     
-   public String color_ojos = "azul";
+   private String color_ojos = "azul";
     
-    public int piernas = 2;
+    protected int piernas = 2;
     
-    public int dedos = 20;
+    int dedos = 20;
     
-    public int pecas = 8;
+    protected int pecas = 8;
     
     
     public void come ()
@@ -25,19 +25,19 @@ public class Personas {
     
     {}
     
-   public void bebe ()
+   void bebe ()
     
     {}
     
-   public void camina ()
+    private void camina ()
     
     {}
     
-   public void respira ()
+   private void respira ()
     
     {}
     
-   public void corre ()
+   protected void corre ()
     
     {}
     
