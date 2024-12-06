@@ -31,5 +31,27 @@ public class Objetos {
     
     {}
     
+    void peinadora () 
+    {
+        
+        Objetos peinador = new Objetos();
+        
+        // instanciando metodos y atributos privados
+        
+        peinador.clavos = 50;
+        peinador.superficie = 1;
+        
+        peinador.optimiza();
+        
+        
+    }
+    
+    void almacena (int pertenencias)
+  
+    {}
+    
+    void almacena (String libros, int ropa)
+    
+    {}
     
 }

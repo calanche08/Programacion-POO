@@ -29,5 +29,13 @@ public class vehiculos {
     
     {}
     
+    protected void economiza (int dinero){
+        
+    }
     
+    protected void economiza (String recreacion, int tiempo){
+        
+        
+        
+    }
 }

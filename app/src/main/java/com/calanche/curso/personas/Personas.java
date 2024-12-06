@@ -41,6 +41,13 @@ public class Personas {
     
     {}
     
+    void bebe (int agua)
+    
+    {}
+    
+    void bebe (String cervezas, int litros)
+    
+    {}
     
 }
 
