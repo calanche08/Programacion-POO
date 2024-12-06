@@ -14,7 +14,7 @@ public class Televisor {
         smarttv.leds = 2;     // control de acceso por default
         smarttv.procesadores = 2; // control de acceso publico
         smarttv.salidas= 4;      // control de acceso protegido
-        smarttv.teclas = 8;   ? // control de acceso protegido
+        smarttv.teclas = 8;    // control de acceso protegido
         
         
         smarttv.actualiza(); // control de acceso protegido

@@ -49,14 +49,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/objetos/Objetos.java",
       "selection": {
         "end": {
-          "column": 5,
-          "index": 831,
-          "line": 54
+          "column": 0,
+          "index": 840,
+          "line": 57
         },
         "start": {
-          "column": 5,
-          "index": 831,
-          "line": 54
+          "column": 0,
+          "index": 840,
+          "line": 57
         }
       }
     },
@@ -94,14 +94,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/dispositivos/Televisor.java",
       "selection": {
         "end": {
-          "column": 4,
-          "index": 81,
-          "line": 5
+          "column": 30,
+          "index": 519,
+          "line": 16
         },
         "start": {
-          "column": 4,
-          "index": 81,
-          "line": 5
+          "column": 30,
+          "index": 519,
+          "line": 16
         }
       }
     },
@@ -124,17 +124,17 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/objetos/Libreria.java",
       "selection": {
         "end": {
-          "column": 4,
-          "index": 70,
-          "line": 4
+          "column": 0,
+          "index": 486,
+          "line": 22
         },
         "start": {
-          "column": 4,
-          "index": 70,
-          "line": 4
+          "column": 0,
+          "index": 486,
+          "line": 22
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/objetos/Objetos.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Programacion-POO/app/src/main/java/com/calanche/curso/MainActivity.java"
 }
