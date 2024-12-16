@@ -8,7 +8,15 @@ y metodos con diferentes configuracion de control de acceso**/
 public class Platanos {
     
     Objetos platanoMediano = new Objetos ();
-        
+    
+        public int flores = 50;
+    //generando atributos para objeto this
+    protected static String color = "verde";
+    
+    private boolean fotosintesis = true;
+    
+    
+    
     
     void respira ()
     {
@@ -16,6 +24,15 @@ public class Platanos {
     Musaseas.sexo = "masculino"; // atributo estatico
         
         Musaseas.crece(); // metodo estatico
+        
+        
+        
+        // recogiendo valores retornado
+        
+        int alimento = this.frutos();
+        
+        String cubre = forraje();
+        
         
     }
 
@@ -33,8 +50,41 @@ public class Platanos {
         platanoEnano.siente();
         
         
+        new Platanos().flores=30;
+        new Platanos().fotosintesis=false;
+        
+        
+        this.flores=30;
+        this.fotosintesis=false;
+        
+        fotosintesis=true;
+        flores=4;
+        
+    }
+  // metodo que retorna un valor
+    public int frutos()
+    
+    {
+        
+        int total = 40;
+        
+        return total;
         
         
     }
-
+    
+    
+    private static final String forraje ()
+    
+    {
+        
+        String adorno = "abundante";
+        
+        return adorno;
+        
+        
+    }
+    
+    
+    
 }

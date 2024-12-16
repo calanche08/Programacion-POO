@@ -5,36 +5,30 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import com.calanche.curso.dispositivos.Dispositivos;
-import com.calanche.curso.objetos.Objetos;
-import com.calanche.curso.personas.Personas;
-import com.calanche.curso.vehiculos.vehiculos;
+
 
 public class MainActivity extends AppCompatActivity {
 
     private LinearLayout panatalla; // Pantalla donde vamos a mostrar el contenido
 
     private TextView texto; // Propiedad para mostrar un texto
-
+    public TextView textoPractica;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInastanceState) {
         super.onCreate(savedInstanceState);
 
         panatalla = new LinearLayout(this); // Imstanciando clase
-
         texto = new TextView(this); // Imstanciando clase
-
+       textoPractica = new TextView(this);
+       
         texto.setText("Hola Mundo"); // Qñqdiendo un texto para mostrar
-
+       textoPractica.setText(" entendiendo la practica");
+        
+        
+        panatalla.addView(texto);
         // aqui se coloca las instancias
         
-        Dispositivos robot = new Dispositivos();
-        
-        robot.identificacion = "IA"; //control de acceso publico
-        robot.procesadores = 100;  // control de acceso publico
-        robot.entretiene();  //control de acceso publico
-        robot.suena();  // control de acceso publico
-        
+        panatalla.addView(textoPractica);
         
         // Añadiendo el.contecto a la aplicación
         setContentView(panatalla);

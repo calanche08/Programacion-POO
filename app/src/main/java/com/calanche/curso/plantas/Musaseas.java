@@ -26,7 +26,23 @@ public class Musaseas {
     
     public void respira ()
     
-    {}
+    {
+        // realizando prueba de instanciar de diferentes maneras,
+        // incluyendo metodo This
+        
+        Musaseas manzano = new Musaseas();
+        
+        manzano.capas= 8;
+        
+        new Musaseas().capas= 9;
+        
+        this.come(); // instanciando metodo
+        
+        this.capas=3; // instanciando atributo
+        
+        capas=8; // el compilador genera el this
+        
+    }
     
     private void come ()
     
@@ -37,7 +53,13 @@ public class Musaseas {
     
     protected void siente ()
     
-    {}
+    {
+        
+        new Musaseas().respira(); // instanciando implicitamente
+        
+        this.capas=2; // objeto this
+        
+    }
     
     protected void siente (String calor) // sobrecarga de metodos
     

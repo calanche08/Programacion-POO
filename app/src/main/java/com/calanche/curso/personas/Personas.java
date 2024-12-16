@@ -6,15 +6,20 @@ public class Personas {
     
    public String cabello = "corto";
     
-  public String color_cabello = "marron";
+  public String colorCabello = "marron";
     
-   private String color_ojos = "azul";
+   private String colorOjos = "azul";
     
     protected int piernas = 2;
     
     int dedos = 20;
     
     protected int pecas = 8;
+    
+    protected int sarcillo = 2;
+    
+    public boolean gracioso = true;
+    
     
     
     public void come ()
